@@ -63,6 +63,15 @@ nav {
   display: flex;
   justify-content: flex-end; }
 
+button {
+  background: #dc7725;
+  color: white;
+  font-size: 0.5em;
+  padding: 3%;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 8%; }
+
 header {
   position: relative;
   padding: 5%;
