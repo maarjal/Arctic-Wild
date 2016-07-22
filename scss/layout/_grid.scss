@@ -64,8 +64,7 @@ hr {
 #item-one {
   width: 50%;
   background: url("../img/pic1.jpeg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 100%;
   }
@@ -83,8 +82,7 @@ hr {
 #item-two {
   width: 25%;
   background: url("../img/pic2.jpeg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 50%;
   }
@@ -96,8 +94,7 @@ hr {
 #item-three {
   width: 25%;
   background: url("../img/pic3.jpeg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 50%;
   }
@@ -109,8 +106,7 @@ hr {
 #item-four {
   width: 25%;
   background: url("../img/pic4.jpeg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 50%;
   }
@@ -122,8 +118,7 @@ hr {
 #item-five {
   width: 25%;
   background: url("../img/pic5.jpeg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 50%;
   }
@@ -135,8 +130,7 @@ hr {
 #item-six {
   width: 50%;
   background: url("../img/pic6.jpg");
-  background-size: cover;
-  background-position: center;
+  @include image-styles();
   @media #{$brk-point-medium} {
     width: 100%;
   }
