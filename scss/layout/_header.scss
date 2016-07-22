@@ -29,19 +29,22 @@ header {
 .main-heading {
   color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  top: 27%;
+  left: 23%;
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
   height: 20%;
+  @media #{$brk-point-large} {
+    position: absolute;
+    top: 27%;
+    left: 39%;
+  }
   @media #{$brk-point} {
     font-size: 1.3em;
     position: absolute;
-    top: 25%;
-    left: 56%;
+    top: 13%;
+    left: 30%;
   }
   & span {
     font-size: 3em;

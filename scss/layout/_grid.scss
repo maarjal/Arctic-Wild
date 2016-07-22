@@ -1,6 +1,6 @@
 .wrap {
   width: 100%;
-  // margin: auto;
+  min-width: 350px;
 }
 
 section {
@@ -38,6 +38,7 @@ section {
 }
 
 i:hover {
+  cursor: pointer;
   -webkit-tranform: scale(1.3);
   -moz-transform: scale(1.3);
   transform: scale(1.3);
