@@ -24,24 +24,22 @@ section {
     font-size: 1.5em;
   }
   & i {
-    border: 2px solid $black;
-    width: 100px;
-    height: 100px;
-    background: $black;
-    opacity: 0.7;
-    border-radius: 50%;
-    margin: auto;
-    padding: 9%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-    @media #{$brk-point-medium} {
-      padding: 5.5%;
-    }
-    @media #{$brk-point-small} {
-      padding: 5%;
-    }
   }
+}
+
+.icon {
+  margin: auto;
+  background: $black;
+  opacity: 0.7;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-item:hover i {
@@ -67,15 +65,6 @@ hr {
   @include image-styles();
   @media #{$brk-point-medium} {
     width: 100%;
-  }
-  & i {
-    padding: 4%;
-    @media #{$brk-point-medium} {
-      padding: 2.5%;
-    }
-    @media #{$brk-point-small} {
-      padding: 3.5%;
-    }
   }
 }
 
@@ -133,14 +122,5 @@ hr {
   @include image-styles();
   @media #{$brk-point-medium} {
     width: 100%;
-  }
-  & i {
-    padding: 4%;
-    @media #{$brk-point-medium} {
-      padding: 2.5%;
-    }
-    @media #{$brk-point-small} {
-      padding: 5%;
-    }
   }
 }
