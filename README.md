@@ -6,7 +6,7 @@
 
 ## Description
 
-The webpage layout is created using Flexbox. Image icons include hover effects using CSS transform and transition.
+The webpage layout is created using Flexbox. Images include hover effects using CSS transform and transition.
 
 ## Setup/Installation Requirements
 
