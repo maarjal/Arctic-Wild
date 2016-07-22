@@ -12,6 +12,9 @@ header {
   justify-content: space-between;
   color: white;
   font-weight: bold;
+  @media #{$brk-point} {
+    height: 25em;
+  }
   & h2 {
     text-transform: uppercase;
   }
@@ -26,13 +29,20 @@ header {
 .main-heading {
   color: white;
   position: absolute;
-  top: 25%;
-  left: 30%;
-  display: inline-block;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
   height: 20%;
+  @media #{$brk-point} {
+    font-size: 1.3em;
+    position: absolute;
+    top: 25%;
+    left: 56%;
+  }
   & span {
     font-size: 3em;
   }

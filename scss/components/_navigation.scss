@@ -1,6 +1,9 @@
 nav {
   display: flex;
   justify-content: flex-end;
+  @media #{$brk-point} {
+    display: none;
+  }
 }
 
 .nav-search {
@@ -9,6 +12,9 @@ nav {
   padding: 5%;
   display: flex;
   justify-content: space-between;
+  @media #{$brk-point} {
+    display: none;
+  }
   & a {
     color: white;
     text-decoration: none;
@@ -23,4 +29,12 @@ nav {
 
 .nav-lower a {
   padding-right: 3%;
+}
+
+.medium-screen-nav {
+  display: none;
+  font-size: 1.5em;
+  @media #{$brk-point} {
+    display: block;
+  }
 }

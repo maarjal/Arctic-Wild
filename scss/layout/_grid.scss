@@ -1,3 +1,8 @@
+.wrap {
+  width: 100%;
+  // margin: auto;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +31,9 @@ section {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    @media #{$brk-point} {
+      padding: 5.5%;
+    }
   }
 }
 
@@ -50,8 +58,14 @@ hr {
   background: url("../img/pic1.jpeg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 100%;
+  }
   & i {
     padding: 4%;
+    @media #{$brk-point} {
+      padding: 2.5%;
+    }
   }
 }
 
@@ -60,6 +74,9 @@ hr {
   background: url("../img/pic2.jpeg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 50%;
+  }
 }
 
 #item-three {
@@ -67,6 +84,9 @@ hr {
   background: url("../img/pic3.jpeg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 50%;
+  }
 }
 
 #item-four {
@@ -74,6 +94,9 @@ hr {
   background: url("../img/pic4.jpeg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 50%;
+  }
 }
 
 #item-five {
@@ -81,6 +104,9 @@ hr {
   background: url("../img/pic5.jpeg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 50%;
+  }
 }
 
 #item-six {
@@ -88,7 +114,13 @@ hr {
   background: url("../img/pic6.jpg");
   background-size: cover;
   background-position: center;
+  @media #{$brk-point} {
+    width: 100%;
+  }
   & i {
     padding: 4%;
+    @media #{$brk-point} {
+      padding: 2.5%;
+    }
   }
 }
