@@ -1,7 +1,7 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     display: none;
   }
 }
@@ -12,7 +12,7 @@ nav {
   padding: 5%;
   display: flex;
   justify-content: space-between;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     display: none;
   }
   & a {
@@ -34,7 +34,7 @@ nav {
 .medium-screen-nav {
   display: none;
   font-size: 1.5em;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     display: block;
   }
 }

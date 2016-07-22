@@ -1,6 +1,5 @@
 .wrap {
   width: 100%;
-  min-width: 350px;
 }
 
 section {
@@ -14,6 +13,11 @@ section {
     justify-content: flex-end;
     color: white;
     padding: 3%;
+    @media #{$brk-point-small} {
+      height: 15em;
+      margin: 5%;
+      width: 100%;
+    }
   }
   & h4 {
     text-transform: uppercase;
@@ -31,8 +35,11 @@ section {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-    @media #{$brk-point} {
+    @media #{$brk-point-medium} {
       padding: 5.5%;
+    }
+    @media #{$brk-point-small} {
+      padding: 5%;
     }
   }
 }
@@ -59,13 +66,16 @@ hr {
   background: url("../img/pic1.jpeg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 100%;
   }
   & i {
     padding: 4%;
-    @media #{$brk-point} {
+    @media #{$brk-point-medium} {
       padding: 2.5%;
+    }
+    @media #{$brk-point-small} {
+      padding: 3.5%;
     }
   }
 }
@@ -75,8 +85,11 @@ hr {
   background: url("../img/pic2.jpeg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 50%;
+  }
+  @media #{$brk-point-small} {
+    width: 100%;
   }
 }
 
@@ -85,8 +98,11 @@ hr {
   background: url("../img/pic3.jpeg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 50%;
+  }
+  @media #{$brk-point-small} {
+    width: 100%;
   }
 }
 
@@ -95,8 +111,11 @@ hr {
   background: url("../img/pic4.jpeg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 50%;
+  }
+  @media #{$brk-point-small} {
+    width: 100%;
   }
 }
 
@@ -105,8 +124,11 @@ hr {
   background: url("../img/pic5.jpeg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 50%;
+  }
+  @media #{$brk-point-small} {
+    width: 100%;
   }
 }
 
@@ -115,13 +137,16 @@ hr {
   background: url("../img/pic6.jpg");
   background-size: cover;
   background-position: center;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     width: 100%;
   }
   & i {
     padding: 4%;
-    @media #{$brk-point} {
+    @media #{$brk-point-medium} {
       padding: 2.5%;
+    }
+    @media #{$brk-point-small} {
+      padding: 5%;
     }
   }
 }

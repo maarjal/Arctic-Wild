@@ -59,12 +59,13 @@ body {
   height: 100vh;
   width: 100vw;
   max-width: 1900px;
-  margin: auto; }
+  margin: auto;
+  background: #d1d1c9; }
 
 nav {
   display: flex;
   justify-content: flex-end; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     nav {
       display: none; } }
 
@@ -74,7 +75,7 @@ nav {
   padding: 5%;
   display: flex;
   justify-content: space-between; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     .nav-search {
       display: none; } }
   .nav-search a {
@@ -92,7 +93,7 @@ nav {
 .medium-screen-nav {
   display: none;
   font-size: 1.5em; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     .medium-screen-nav {
       display: block; } }
 
@@ -121,9 +122,12 @@ header {
   justify-content: space-between;
   color: white;
   font-weight: bold; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     header {
       height: 25em; } }
+  @media screen and (max-width: 680px) {
+    header {
+      height: 15em; } }
   header h2 {
     text-transform: uppercase; }
   header a {
@@ -136,7 +140,7 @@ header {
   color: white;
   position: absolute;
   top: 27%;
-  left: 23%;
+  left: 30%;
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
@@ -146,12 +150,18 @@ header {
       position: absolute;
       top: 27%;
       left: 39%; } }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     .main-heading {
       font-size: 1.3em;
       position: absolute;
       top: 13%;
       left: 30%; } }
+  @media screen and (max-width: 680px) {
+    .main-heading {
+      font-size: 1em;
+      position: absolute;
+      top: 5%;
+      left: 25%; } }
   .main-heading span {
     font-size: 3em; }
   .main-heading i {
@@ -166,8 +176,7 @@ header {
     padding: 0; }
 
 .wrap {
-  width: 100%;
-  min-width: 350px; }
+  width: 100%; }
 
 section {
   display: flex;
@@ -180,6 +189,11 @@ section {
     justify-content: flex-end;
     color: white;
     padding: 3%; }
+    @media screen and (max-width: 680px) {
+      section .gallery-item {
+        height: 15em;
+        margin: 5%;
+        width: 100%; } }
   section h4 {
     text-transform: uppercase;
     font-size: 1.5em; }
@@ -195,9 +209,12 @@ section {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s; }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1100px) {
       section i {
         padding: 5.5%; } }
+    @media screen and (max-width: 680px) {
+      section i {
+        padding: 5%; } }
 
 i:hover {
   cursor: pointer;
@@ -219,63 +236,81 @@ hr {
   background: url("../img/pic1.jpeg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-one {
       width: 100%; } }
   #item-one i {
     padding: 4%; }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1100px) {
       #item-one i {
         padding: 2.5%; } }
+    @media screen and (max-width: 680px) {
+      #item-one i {
+        padding: 3.5%; } }
 
 #item-two {
   width: 25%;
   background: url("../img/pic2.jpeg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-two {
       width: 50%; } }
+  @media screen and (max-width: 680px) {
+    #item-two {
+      width: 100%; } }
 
 #item-three {
   width: 25%;
   background: url("../img/pic3.jpeg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-three {
       width: 50%; } }
+  @media screen and (max-width: 680px) {
+    #item-three {
+      width: 100%; } }
 
 #item-four {
   width: 25%;
   background: url("../img/pic4.jpeg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-four {
       width: 50%; } }
+  @media screen and (max-width: 680px) {
+    #item-four {
+      width: 100%; } }
 
 #item-five {
   width: 25%;
   background: url("../img/pic5.jpeg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-five {
       width: 50%; } }
+  @media screen and (max-width: 680px) {
+    #item-five {
+      width: 100%; } }
 
 #item-six {
   width: 50%;
   background: url("../img/pic6.jpg");
   background-size: cover;
   background-position: center; }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1100px) {
     #item-six {
       width: 100%; } }
   #item-six i {
     padding: 4%; }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1100px) {
       #item-six i {
         padding: 2.5%; } }
+    @media screen and (max-width: 680px) {
+      #item-six i {
+        padding: 5%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -12,8 +12,11 @@ header {
   justify-content: space-between;
   color: white;
   font-weight: bold;
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     height: 25em;
+  }
+  @media #{$brk-point-small} {
+    height: 15em;
   }
   & h2 {
     text-transform: uppercase;
@@ -30,7 +33,7 @@ header {
   color: white;
   position: absolute;
   top: 27%;
-  left: 23%;
+  left: 30%;
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
@@ -40,11 +43,17 @@ header {
     top: 27%;
     left: 39%;
   }
-  @media #{$brk-point} {
+  @media #{$brk-point-medium} {
     font-size: 1.3em;
     position: absolute;
     top: 13%;
     left: 30%;
+  }
+  @media #{$brk-point-small} {
+    font-size: 1em;
+    position: absolute;
+    top: 5%;
+    left: 25%;
   }
   & span {
     font-size: 3em;
