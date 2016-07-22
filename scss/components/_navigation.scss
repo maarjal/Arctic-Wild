@@ -1,14 +1,26 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  // border: 2px solid red;
-  // height: 10%;
 }
 
-// .links {
-//   display: flex;
-//   justify-content: flex-end;
-//   & a {
-//     text-decoration: none;
-//   }
-// }
+.nav-search {
+  background: #333333;
+  color: white;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  & a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  & a:last-child {
+    color: #dc7725;
+    border-left: 1px solid grey;
+    padding-left: 3%;
+  }
+}
+
+.nav-lower a {
+  padding-right: 3%;
+}
