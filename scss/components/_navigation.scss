@@ -7,28 +7,35 @@ nav {
 }
 
 .nav-search {
-  background: #333333;
-  color: white;
-  padding: 5%;
+  background: $nav-lower;
+  color: $white;
+  padding: 4%;
   display: flex;
   justify-content: space-between;
   @media #{$brk-point-medium} {
     display: none;
   }
   & a {
-    color: white;
+    color: $grey;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   & a:last-child {
-    color: #dc7725;
+    color: $orange;
     border-left: 1px solid grey;
     padding-left: 3%;
+  }
+  & i {
+    color: darken($grey, 15%);
   }
 }
 
 .nav-lower a {
   padding-right: 3%;
+}
+
+.nav-lower a:first-child {
+  color: $white;
 }
 
 .medium-screen-nav {

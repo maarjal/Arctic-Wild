@@ -10,7 +10,7 @@ header {
   height: 40em;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: $white;
   font-weight: bold;
   @media #{$brk-point-medium} {
     height: 25em;
@@ -25,12 +25,12 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 2%;
-    color: white;
+    color: $white;
   }
 }
 
 .main-heading {
-  color: white;
+  color: $white;
   position: absolute;
   top: 27%;
   left: 30%;
@@ -59,6 +59,7 @@ header {
     font-size: 3em;
   }
   & i {
+    color: $grey;
     margin-bottom: 2%;
   }
   & hr {
@@ -66,7 +67,7 @@ header {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 5px solid white;
+    border-top: 5px solid $white;
     margin: 1em auto;
     padding: 0;
   }

@@ -11,5 +11,6 @@ body {
   width: 100vw;
   max-width: 1900px;
   margin: auto;
-  background: #d1d1c9;   
+  background: $background;
+  font-family: $stack-cabin;
 }
