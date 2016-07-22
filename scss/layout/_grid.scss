@@ -23,7 +23,16 @@ section {
     border-radius: 50%;
     margin: auto;
     padding: 9%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
+}
+
+i:hover {
+  -webkit-tranform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 hr {
