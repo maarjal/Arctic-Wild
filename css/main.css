@@ -115,7 +115,7 @@ header {
 .main-heading {
   color: white;
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 30%;
   display: inline-block;
   text-transform: uppercase;
@@ -123,9 +123,76 @@ header {
   text-align: center;
   height: 20%; }
   .main-heading span {
-    font-size: 3em;
-    border-bottom: 15px solid white; }
+    font-size: 3em; }
   .main-heading i {
     margin-bottom: 2%; }
+  .main-heading hr {
+    width: 10em;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid white;
+    margin: 1em auto;
+    padding: 0; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  section .gallery-item {
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 3%; }
+  section h4 {
+    text-transform: uppercase;
+    font-size: 1.5em; }
+
+hr {
+  width: 5em;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #dc7725;
+  margin: 1em 0;
+  padding: 0; }
+
+#item-one {
+  width: 50%;
+  background: url("../img/pic1.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#item-two {
+  width: 25%;
+  background: url("../img/pic2.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#item-three {
+  width: 25%;
+  background: url("../img/pic3.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#item-four {
+  width: 25%;
+  background: url("../img/pic4.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#item-five {
+  width: 25%;
+  background: url("../img/pic5.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+#item-six {
+  width: 50%;
+  background: url("../img/pic6.jpg");
+  background-size: cover;
+  background-position: center; }
 
 /*# sourceMappingURL=main.css.map */
